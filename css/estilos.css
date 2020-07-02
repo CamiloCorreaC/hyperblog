@@ -1,5 +1,6 @@
 body
 {
+    background:#1e1f24;
     color:#333;
     text-align: left;
     font-family: "Arial";
@@ -9,12 +10,17 @@ body
 }
 #cabecera
 {
-    background: #33d;
+    background: url("../imagenes/dragon.png") no-repeat center center;
     box-shadow: 0px 5px 30px 0px rbga(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0.5rem 2em;
+}
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -25,7 +31,7 @@ body
 
 }
 
-#Container
+#container
 {
     width: 70%;
     padding: 1em;
@@ -33,11 +39,12 @@ body
     border: 1px solid #DDD;
     margin: 0 auto;
 }
-#Container h1
+#container h1
 {
     font-size: 20px;
 }
 #post
 {
+    background:white ;
     padding: 1em;
 }
